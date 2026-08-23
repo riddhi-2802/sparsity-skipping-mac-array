@@ -1,0 +1,154 @@
+$date
+	Sun Aug 23 07:11:33 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_pe $end
+$var wire 1 ! skipped $end
+$var wire 1 " mac_valid $end
+$var wire 32 # acc_out [31:0] $end
+$var reg 1 $ acc_clear $end
+$var reg 8 % act_in [7:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' rst_n $end
+$var reg 1 ( valid_in $end
+$var reg 8 ) weight_in [7:0] $end
+$var integer 32 * errors [31:0] $end
+$scope module dut $end
+$var wire 1 $ acc_clear $end
+$var wire 8 + act_in [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 , do_mac $end
+$var wire 1 - do_skip $end
+$var wire 1 ' rst_n $end
+$var wire 1 ( valid_in $end
+$var wire 8 . weight_in [7:0] $end
+$var wire 1 / is_weight_zero $end
+$var wire 1 0 is_act_zero $end
+$var parameter 32 1 ACC_WIDTH $end
+$var parameter 32 2 DATA_WIDTH $end
+$var reg 32 3 acc_out [31:0] $end
+$var reg 1 " mac_valid $end
+$var reg 1 ! skipped $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 2
+b100000 1
+$end
+#0
+$dumpvars
+b0 3
+10
+1/
+b0 .
+0-
+0,
+b0 +
+b0 *
+b0 )
+0(
+0'
+0&
+b0 %
+0$
+b0 #
+0"
+0!
+$end
+#5000
+1&
+#10000
+0&
+#15000
+1&
+#20000
+1'
+0&
+#25000
+1&
+#30000
+1,
+1(
+00
+b100 %
+b100 +
+0/
+b11 )
+b11 .
+0&
+#35000
+1"
+b1100 #
+b1100 3
+1&
+#40000
+0,
+1-
+b111 %
+b111 +
+1/
+b0 )
+b0 .
+0&
+#45000
+0"
+1!
+1&
+#50000
+10
+b0 %
+b0 +
+0/
+b1001 )
+b1001 .
+0&
+#55000
+1&
+#60000
+1,
+0-
+00
+b1010 %
+b1010 +
+b1010 )
+b1010 .
+0&
+#65000
+1"
+0!
+b1110000 #
+b1110000 3
+1&
+#70000
+0,
+0(
+1$
+0&
+#75000
+0"
+b0 #
+b0 3
+1&
+#76000
+0$
+#80000
+1,
+1(
+b110 %
+b110 +
+b110 )
+b110 .
+0&
+#85000
+1"
+b100100 #
+b100100 3
+1&
+#86000
