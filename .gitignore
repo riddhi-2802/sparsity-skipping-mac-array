@@ -1,3 +1,10 @@
+# Generated simulation files
+*.vcd
 pe_sim
 pe_tb_sim
-*.vcd
+
+# OpenLane generated runs
+openlane/pe/runs/
+
+# Other generated OpenLane files
+openlane/pe/tmp/
